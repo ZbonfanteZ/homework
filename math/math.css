@@ -49,3 +49,8 @@ h1{
     margin: 10px;
     background-color: lavender;
 }
+h2.c{
+    display: inline-block;
+    margin: 2em;
+    width: 20%;
+}
