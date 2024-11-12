@@ -1,0 +1,36 @@
+body {
+    background-color: lavenderblush;
+    line-height: 50px;
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+}
+
+.hide {
+    display: none;
+}
+
+li.myDIV {
+    display: inline-block;
+    margin: 2em;
+    width: 20%;
+}
+
+.myDIV:hover>.hide {
+    display: inline;
+    color: red;
+}
+
+.hide {
+    text-indent: 30%;
+}
+
+ol.c {
+    list-style-type: upper-roman;
+}
+.a{
+    color: pink;
+    text-align: center;
+}
