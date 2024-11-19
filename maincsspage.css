@@ -1,3 +1,10 @@
 h1{
     color: black;
 }
+.science{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: blue;
+    
+}

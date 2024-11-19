@@ -1,11 +1,19 @@
 .questions{
-    color: red;
+    color: burlywood;
     font-size: 30px;
+    border: 5px;
+    background-color: beige;
 }
 .answers{
-    color: green;
+    display: flex;
+    color: white;
     font-size: 20px;
     list-style-type: upper-alpha;
+    background-color: black;
+    border-radius: 3px;
+    justify-content: space-between;
+    
+
 }
 .K{
     font-style: italic;
