@@ -1,89 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <link rel="stylesheet" href="science.css">
-    <h1> Science practice questions grades k-8</h1>
-    <div classs = "K">
-        <p>Kindergarten</p>
-        <p class ="questions">Q; what does a caterpiller turn into"></p>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <link rel="stylesheet" href="science.css">
+        <h1> Science practice questions grades k-8</h1>
+        <div class = "K">
+            <p>Kindergarten</p>
+            <p class ="questions">Q; what does a caterpiller turn into"></p>
+            <ol class = "answers">
+                <li>A, a cat</li>
+                <li>B, a earthworm</li> 
+                <li onclick="selectCorrectAnswer()">C, Butterfly</li>
+                <li>D, Chicken</li> 
+                </ol>   
+            <h2>Kindergarten</h2>
+            <p class ="questions">Q; what does a caterpiller turn into"></p>
+            <ol class = "answers">
+                <li>A, a cat</li>
+                <li>B, a earthworm<li> 
+                <li onclick="selectCorrectAnswer()">C, Butterfly</li>
+                <li>D, Chicken</li>
+                </ol>
+        </div>
+
+        <h2 class = "First">1st Grade</h2>
+        <p class ="questions">Q; "What do plants need to grow?"></p>
         <ol class = "answers">
-            <li>A, a cat</li>
-            <li>B, a earthworm<li> 
-            <li onclick="selectCorrectAnswer()">C, Butterfly</li>
-            <li>D, Chicken</li>>{
-        <h2 >Kindergarten</h2>
-        <p class ="questions">Q; what does a caterpiller turn into"></p>
-        <ol class = "answers">
-            <li>A, a cat</li>
-            <li>B, a earthworm<li> 
-            <li onclick="selectCorrectAnswer()">C, Butterfly</li>
-            <li>D, Chicken</li>
+            <li>A, Ice</li>
+            <li onclick="selectCorrectAnswer()">B, sunlight</li>
+            <li>C, sand <li> 
+            <li>D, Toys</li>
             </ol>
-    </div>
+        <h2 class = "Second">2nd Grade</h2>
+        <p class ="questions">Q; "Which of these is a type of weather?"></p>
+        <ol class = "answers">
+            <li onclick="selectCorrectAnswer()">A, Rain</li>
+            <li>B, Potato</li>
+            <li>C, Table<li> 
+            <li>D, Fish</li>
+            </ol>
+        <h2 class = "Third">3rd Grade</h2>
+        <p class ="questions">Q; "What is the main source of energy for the Earth?"></p>
+        <ol class = "answers">
+            <li onclick="selectCorrectAnswer()">A, The Moon</li>
+            <li>B, The Sun</li>
+            <li>C, Lamps<li> 
+            <li>D, Wind</li>
+            </ol>
+        <h2 class = "Fourth">4th Grade</h2>
+        <p class ="questions">Q; "Which of these is a mammal?"></p>
+        <ol class = "answers">
+            <li>A, Crocodile</li>
+            <li>B, Parrot<li> 
+            <li>C, Lizard</li>
+            <li onclick="selectCorrectAnswer()">D, Dolphin</li>
+            </ol>
+        <h2 class = "Fifth">5th Grade</h2>
+        <p class ="questions">Q; "Which of the following is a natural satellite of Earth?"></p>
+        <ol class = "answers">
+            <li>A, Mars</li>
+            <li>B, Venus<li> 
+            <li>C, Sun</li>
+            <li onclick="selectCorrectAnswer()">D, Moon</li>
+            </ol>
 
-    <h2 classs = "First">1st Grade</h2>
-    <p class ="questions">Q; "What do plants need to grow?"></p>
-    <ol class = "answers">
-        <li>A, Ice</li>
-        <li onclick="selectCorrectAnswer()">B, sunlight</li>
-        <li>C, sand <li> 
-        <li>D, Toys</li>
-    <h2 classs = "Second">2nd Grade</h2>
-    <p class ="questions">Q; "Which of these is a type of weather?"></p>
-     <ol class = "answers">
-        <li onclick="selectCorrectAnswer()">A, Rain</li>
-        <li>B, Potato</li>
-        <li>C, Table<li> 
-        <li>D, Fish</li>
-    <h2 classs = "Third">3rd Grade</h2>
-    <p class ="questions">Q; "What is the main source of energy for the Earth?"></p>
-     <ol class = "answers">
-        <li onclick="selectCorrectAnswer()">A, The Moon</li>
-        <li>B, The Sun</li>
-        <li>C, Lamps<li> 
-        <li>D, Wind</li>
-    <h2 classs = "Fourth">4th Grade</h2>
-    <p class ="questions">Q; "Which of these is a mammal?"></p>
-     <ol class = "answers">
-        <li>A, Crocodile</li>
-        <li>B, Parrot<li> 
-        <li>C, Lizard</li>
-        <li onclick="selectCorrectAnswer()">D, Dolphin</li>
-     <h2 classs = "Fifth">5th Grade</h2>
-    <p class ="questions">Q; "Which of the following is a natural satellite of Earth?"></p>
-     <ol class = "answers">
-        <li>A, Mars</li>
-        <li>B, Venus<li> 
-        <li>C, Sun</li>
-        <li onclick="selectCorrectAnswer()">D, Moon</li>
-
- <h2 classs = "Sixth">6th Grade</h2>
-    <p class ="questions">Q; "Which of these elements is a gas at room temperature?"></p>
-     <ol class = "answers">
-        <li onclick="selectCorrectAnswer()">A, Oxygen</li>
-        <li>B, Iron</li>
-        <li>C, Lead<li> 
-        <li>D, Copper/li>
- <h2 classs = "Seventh">7th Grade</h2>
-    <p class ="questions">Q; "What is the process by which plants make their own food using sunlight?"></p>
-     <ol class = "answers">
-        <li>A, Respiration</li>
-        <li>B, Digestion<li> 
-        <li onclick="selectCorrectAnswer()">C, Photosynthesis</li>
-        <li>D, Evaporation</li>
-<h2 classs = "Eighth">8th Grade</h2>
-    <p class ="questions">Q; "Which part of the cell controls what enters and leaves the cell?"></p>
-     <ol class = "answers">
-        <li>A, Nucleus</li>
-        <li>B, Cytoplasm<li> 
-        <li onclick="selectCorrectAnswer()">C, Cell Membrane</li>
-        <li>D, Mitochondria</li>
-    <script src="science.js"></script>
-    <link:js></link:js>
-</body>
-</html>
+    <h2 class = "Sixth">6th Grade</h2>
+        <p class ="questions">Q; "Which of these elements is a gas at room temperature?"></p>
+        <ol class = "answers">
+            <li onclick="selectCorrectAnswer()">A, Oxygen</li>
+            <li>B, Iron</li>
+            <li>C, Lead<li> 
+            <li>D, Copper</li>
+            </ol>
+    <h2 class = "Seventh">7th Grade</h2>
+        <p class ="questions">Q; "What is the process by which plants make their own food using sunlight?"></p>
+        <ol class = "answers">
+            <li>A, Respiration</li>
+            <li>B, Digestion<li> 
+            <li onclick="selectCorrectAnswer()">C, Photosynthesis</li>
+            <li>D, Evaporation</li>
+            </ol>
+    <h2 class = "Eighth">8th Grade</h2>
+        <p class ="questions">Q; "Which part of the cell controls what enters and leaves the cell?"></p>
+        <ol class = "answers">
+            <li>A, Nucleus</li>
+            <li>B, Cytoplasm<li> 
+            <li onclick="selectCorrectAnswer()">C, Cell Membrane</li>
+            <li>D, Mitochondria</li>
+            </ol>
+        <script src="science.js"></script>
+    </body>
+    </html>

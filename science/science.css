@@ -5,6 +5,7 @@
 .answers{
     color: green;
     font-size: 20px;
+    list-style-type: upper-alpha;
 }
 .K{
     font-style: italic;
